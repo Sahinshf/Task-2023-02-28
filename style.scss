@@ -9,6 +9,7 @@
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), (url(https://js-beginners.github.io/testimonial-project/img/questionBcg.jpeg));
   height: 100vh;
+  transition: all 1s;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
