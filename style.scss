@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), (url(https://js-beginners.github.io/testimonial-project/img/questionBcg.jpeg));
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  transition: all 0.7s;
+}
+
+.cities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_content {
+    border: 2px white solid;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
+    padding: 0 20px;
+    &_stars {
+      display: flex;
+    }
+    &_image {
+      background-image: image(url(images/Tokyo.jpg));
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      width: 150px;
+      height: 100px;
+      margin-top: -50px;
+    }
+    &_title {
+      padding: 16px 0;
+    }
+    &_text {
+      padding: 12px 0;
+      text-align: center;
+    }
+  }
+}
+
+.main_title {
+  color: #f15025;
+  font-size: 24px;
+}
+
+.main_text {
+  font-size: 40px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.icon_color {
+  color: #f15025;
+}
+
+.fa-quote-left {
+  padding: 8px 0;
+}
+
+.right_button,
+.left_button {
+  border: 1px #f15025 solid;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.right_button:hover,
+.left_button:hover {
+  background-color: #f15025;
+  color: white;
+  transition: 0.5s;
+}
